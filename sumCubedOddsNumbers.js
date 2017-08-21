@@ -1,7 +1,7 @@
 function cubeOdd(arr) {
     var array = [], arr1 = [], sum = 0, y = ""
-    
-    for(var i = 0; i < arr.length; i++) {    
+    for(var i = 0; i < arr.length; i++) {  
+      
          if(arr[i] % 2 !== 0)
             var a = array.push(arr[i]);
     };
@@ -13,9 +13,11 @@ function cubeOdd(arr) {
     
     for(var b = 0; b < arr1.length; b++) {
            sum += arr1[b];
+    
+    
     };
     
-    return sum;
+    return sum || undefined;
     return 0;
     
     };
