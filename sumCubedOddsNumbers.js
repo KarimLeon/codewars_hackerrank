@@ -1,5 +1,5 @@
 function cubeOdd(arr) {
-    var array = [], arr1 = [], sum = 0, y = ""
+    var array = [], arr1 = [], sum = 0
     for(var i = 0; i < arr.length; i++) {  
       
          if(arr[i] % 2 !== 0)
