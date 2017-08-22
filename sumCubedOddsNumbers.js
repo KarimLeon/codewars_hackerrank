@@ -1,4 +1,5 @@
 function cubeOdd(arr) {
+
     var array = [], arr1 = [], sum = 0
     for(var i = 0; i < arr.length; i++) {  
       
@@ -16,8 +17,13 @@ function cubeOdd(arr) {
     
     
     };
+
+    if(sum == 0)
+        var a = 0; 
+    else if(arr != undefined)
+        a = undefined;
     
-    return sum || undefined;
-    return 0;
+    return sum || a;
+  
     
     };
