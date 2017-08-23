@@ -1,12 +1,12 @@
 var capitals = function (word) { 
-  var array = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', gay = array.split(''), lol = []
-    for(var b = 0; b < gay.length; b++) {
+  var array = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', arraySplit = array.split(''), newArray = []
+    for(var b = 0; b < arraySplit.length; b++) {
 	 for(var i = 0; i < word.length; i++) {
-          if(word[i] == gay[b])
-            lol.push(word.indexOf(word[i]));     
+          if(word[i] == arraySplit[b])
+            newArray.push(word.indexOf(word[i]));     
 
-            var solved =  lol.sort();
+            var sortedArray =  newArray.sort();
 }
 };
-return solved;
+return sortedArray;
 };
