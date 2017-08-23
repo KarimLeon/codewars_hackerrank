@@ -18,8 +18,8 @@ function cubeOdd(arr) {
     
     };
 
-    if(sum == 0)
-        var a = 0; 
+    if(sum == 0)                     
+        var a = 0;  
     else if(arr != undefined)
         a = undefined;
     
