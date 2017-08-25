@@ -1,5 +1,5 @@
 function reverseWords(str){
-  var p = [], spleet = str.split(' ')
+  var spleet = str.split(' ')
   
       var a = spleet.reverse();
 
