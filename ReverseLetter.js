@@ -1,6 +1,6 @@
 //numb.indexOf(numb.match(ggg))
 function reverseLetter(str) {
-  var regexp = /\W+^[A-z]+$/, ex = /[0-9]/, falseArray = str.split('')
+  var regexp = /^[A-z]+$/, ex = /[0-9]/, falseArray = str.split('')
   var tested = regexp.test(str);
   var numbergotFound = str.indexOf(str.match(ex))
 
