@@ -1,10 +1,8 @@
-function persistence(num) {
-   function Stringed() {
-     return String(num);
- };
-     
+ function Stringed() { 
+    return String(num);
+};
   
-  var arrayedToMultiplied = function(string)  {
+  var arr = function(string)  {
     var str = string.split('')
     var reduce = str.reduce(function(a ,b) {
           return a * b;
@@ -13,6 +11,14 @@ function persistence(num) {
    return reduce;
      
 }
- return arrayedToMultiplied(Stringed());
+   var lol = arr(Stringed())
+ 
+  if(lol.length == 1)
+     return 0;
+  else if(lol.length > 1) 
+   var b = persistence(num);
+     
+ 
+return b;
 
 }
